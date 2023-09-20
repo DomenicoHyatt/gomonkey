@@ -25,3 +25,4 @@ func mprotectCrossPage(addr uintptr, length int, prot int) error {
 	}
 	return nil
 }
+ 
