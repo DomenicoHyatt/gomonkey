@@ -1,4 +1,4 @@
-package gomonkey
+package#gomonkey
 
 import (
     "syscall"
@@ -22,4 +22,4 @@ func modifyBinary(target uintptr, bytes []byte) {
     if result == 0 {
         panic(result)
     }
-}
+} 
